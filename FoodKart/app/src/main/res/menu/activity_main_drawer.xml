@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/pizza1"
+
+            android:title="Order Pizza" />
+        <item
+            android:id="@+id/burger1"
+
+            android:title="Order Burger" />
+        <item
+            android:id="@+id/pasta1"
+
+            android:title="Order Pasta" />
+        <item
+            android:id="@+id/extras1"
+
+            android:title="Extras" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact1"
+
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/rate1"
+
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>
